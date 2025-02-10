@@ -2,7 +2,7 @@ import 'package:calculator_app/widgets/display.dart';
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(Calculator_app());
+  runApp(const Calculator_app());
 }
 
 class Calculator_app extends StatelessWidget {
@@ -10,7 +10,7 @@ class Calculator_app extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Display_calculator(),
     );
